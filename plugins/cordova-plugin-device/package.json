@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-device@1.1.4",
+      "/home/shareef/FissionLabs/Projects/ionic2/MusicPlayer"
+    ]
+  ],
+  "_from": "cordova-plugin-device@1.1.4",
+  "_id": "cordova-plugin-device@1.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-device",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-device-1.1.4.tgz_1481568063967_0.07361319195479155"
+  },
+  "_npmUser": {
+    "email": "shazron@gmail.com",
+    "name": "shazron"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-device",
+    "raw": "cordova-plugin-device@1.1.4",
+    "rawSpec": "1.1.4",
+    "scope": null,
+    "spec": "1.1.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-1.1.4.tgz",
+  "_shasum": "d5fe74712069d03f6d386ef0bd321b3abd0d38dc",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-device@1.1.4",
+  "_where": "/home/shareef/FissionLabs/Projects/ionic2/MusicPlayer",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-device/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-device",
+    "platforms": [
+      "amazon-fireos",
+      "android",
+      "blackberry10",
+      "browser",
+      "firefoxos",
+      "ios",
+      "osx",
+      "tizen",
+      "ubuntu",
+      "windows",
+      "windows8",
+      "wp7",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Device Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d5fe74712069d03f6d386ef0bd321b3abd0d38dc",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-1.1.4.tgz"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-device#readme",
+  "keywords": [
+    "cordova",
+    "cordova-amazon-fireos",
+    "cordova-android",
+    "cordova-blackberry10",
+    "cordova-browser",
+    "cordova-firefoxos",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-tizen",
+    "cordova-ubuntu",
+    "cordova-windows",
+    "cordova-windows8",
+    "cordova-wp7",
+    "cordova-wp8",
+    "device",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-device",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-device.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.1.4"
+}

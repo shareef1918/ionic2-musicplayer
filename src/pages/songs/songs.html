@@ -1,0 +1,32 @@
+<!--
+  Generated template for the SongsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let song of songsList" style="background: none; margin:0px !important" (click)="playSelectedSong(song)">
+      <p class="song-title" style="margin:0px; padding:0px">{{song.name}}</p>
+      <p class="singer" style="margin:0px; padding:0px">Singer</p>
+      <div item-right style="padding:0px; margin:0px">   
+        <ion-icon ios="ios-play" md="md-play" style="color:#fff; font-size:25px" [hidden]="song.isRunning"></ion-icon>
+        <ion-icon ios="ios-pause" md="md-pause" style="color:#fff; font-size:25px"[hidden]="!song.isRunning"></ion-icon>
+        <!-- <img src="/assets/imgs/play.gif"/> -->
+      </div>
+    </ion-item>
+  </ion-list>
+  <ion-row col-12 style="position:fixed; bottom:0px; margin-left:-16px; background:#fff; padding:0px">
+      <ion-col col-2>
+          <img src="https://yt3.ggpht.com/pHwZj3tkgC3SJFbuqebBoT7WtVcIwAijEmcbe9VDCauv9ZlG6uS2zjvZQUSO7SfFqa3xjYqGp_L4QbM7=s900-nd-c-c0xffffffff-rj-k-no" style="width:40px;height:40px">
+      </ion-col>
+      <ion-col col-6>{{currentSong.name}}<br/>{{currentSong.duration}}</ion-col>
+      <ion-col col-4 class="play-symbols">   
+        <ion-icon ios="ios-skip-backward" md="md-skip-backward" (click)="playPrevSong()"></ion-icon>
+        <ion-icon ios="ios-play" md="md-play" [hidden]="currentSong.isRunning" (click)="playCurrentSong()"></ion-icon>
+        <ion-icon ios="ios-play" md="md-pause" [hidden]="!currentSong.isRunning" (click)="pauseSong()" ></ion-icon>
+        <ion-icon ios="ios-skip-forward" md="md-skip-forward" (click)="playNextSong()"></ion-icon>
+      </ion-col>
+  </ion-row>
+</ion-content>

@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./musicplayer.keystore",
+            "storePassword": "android",
+            "alias": "musicplayer",
+            "password" : "Shareef@1918",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "./musicplayer.keystore",
+            "storePassword": "Shareef@1918",
+            "alias": "musicplayer",
+            "password" : "Shareef@1918",
+            "keystoreType": ""
+        }
+    }
+}
